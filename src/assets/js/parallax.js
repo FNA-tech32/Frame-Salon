@@ -1,3 +1,7 @@
+/* eslint-disable eqeqeq, no-redeclare */
+
+
+
 /*!
  * parallax.js v1.5.0 (http://pixelcog.github.io/parallax.js/)
  * @copyright 2016 PixelCog, Inc.
@@ -5,7 +9,8 @@
  */
 import $ from "jquery";
 
-;(function ( $, window, document, undefined ) {
+;(function ()
+ {
 
   // Polyfill for requestAnimationFrame
   // via: https://gist.github.com/paulirish/1579671
