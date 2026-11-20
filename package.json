@@ -4,9 +4,9 @@
   "description": "Frame Salon Frontend",
   "main": "index.js",
   "scripts": {
-    "dev": "node --openssl-legacy-provider ./node_modules/react-scripts/scripts/start.js",
-    "start": "node --openssl-legacy-provider ./node_modules/react-scripts/scripts/start.js",
-    "build": "node --openssl-legacy-provider ./node_modules/react-scripts/scripts/build.js",
+    "dev": "node init && node --openssl-legacy-provider ./node_modules/react-scripts/scripts/start.js",
+    "start": "node init && node --openssl-legacy-provider ./node_modules/react-scripts/scripts/start.js",
+    "build": "node init && node --openssl-legacy-provider ./node_modules/react-scripts/scripts/build.js",
     "test": "node --openssl-legacy-provider ./node_modules/react-scripts/scripts/test.js"
   },
   "dependencies": {
