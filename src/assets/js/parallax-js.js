@@ -1,6 +1,8 @@
+/* eslint-disable eqeqeq, no-redeclare */
+
+
 import $ from "jquery";
-var window = $(window);
-var document = $(document);
+
 /**
  * @module       Parallax.js
  * @author       Matthew Wagerfield - @wagerfield
