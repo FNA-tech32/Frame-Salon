@@ -1,3 +1,6 @@
+/* eslint-disable */
+
+
 (function() {
   var MutationObserver,
     Util,
